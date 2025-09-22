@@ -1,25 +1,7 @@
+//Method-2: Using counter
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 11.09.2025 11:40:06
-// Design Name: 
-// Module Name: fifo_axi
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
 
-module fifo_axi #(parameter DATA_WIDTH=32, FIFO_DEPTH=16)(
+module fifo_axi1 #(parameter DATA_WIDTH=32, FIFO_DEPTH=16)(
 //Global Signals
 input aclk, aresetn,
 //Input slave interface
