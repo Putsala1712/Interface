@@ -1,24 +1,4 @@
-`timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 19.09.2025 15:21:48
-// Design Name: 
-// Module Name: fifo_axi
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
-
+//Method-1: Using pointer comparison (one-slot )
 
 module fifo_axi#(parameter DATA_WIDTH=32, FIFO_DEPTH=16)(
 //Global Signals
