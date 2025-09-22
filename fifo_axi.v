@@ -1,7 +1,7 @@
 //Method-2: Using counter
 `timescale 1ns / 1ps
 
-module fifo_axi1 #(parameter DATA_WIDTH=32, FIFO_DEPTH=16)(
+module fifo_axi #(parameter DATA_WIDTH=32, FIFO_DEPTH=16)(
 //Global Signals
 input aclk, aresetn,
 //Input slave interface
